@@ -1,5 +1,5 @@
 <!-- top_nav.php -->
-ul class="nav navbar-right top-nav">
+<ul class="nav navbar-right top-nav">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu message-dropdown">
