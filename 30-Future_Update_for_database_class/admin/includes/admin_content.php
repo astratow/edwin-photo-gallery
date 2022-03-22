@@ -11,9 +11,11 @@
 
 
         <?php 
-            if ($database->connection){
+            if($database->connection){
                 echo 'true';
-        }
+            }else{
+                echo 'false';
+            }
         ?>
                         <ol class="breadcrumb">
                             <li>
