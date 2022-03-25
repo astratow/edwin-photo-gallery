@@ -11,11 +11,13 @@
 
 
         <?php 
-            if($database->connection){
-                echo 'true';
-            }else{
-                echo 'false';
-            }
+            $sql = "SELECT * FROM users WHERE id=1";
+            $result = $database->query();
+            // if($database->connection){
+            //     echo 'true';
+            // }else{
+            //     echo 'false';
+            // }
         ?>
                         <ol class="breadcrumb">
                             <li>
