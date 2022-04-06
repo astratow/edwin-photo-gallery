@@ -12,7 +12,9 @@
 
         <?php 
             $sql = "SELECT * FROM users WHERE id=1";
-            $result = $database->query();
+            $result = $database->query($sql);
+            $user_found = mysqli_fetch_array($result);
+            echo $user_found('username');
             // if($database->connection){
             //     echo 'true';
             // }else{
